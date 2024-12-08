@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CatPhotoApp</title>
+</head>
+<body>
+  <header>
+    <h1>Cat Photos</h1>
+    <p>Everyone loves cute cats online!</p>
+  </header>
+
+  <section>
+    <p>See more cat photos in our gallery.</p>
+    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back">
+  </section>
+
+  <section>
+    <h2>Cat Lists</h2>
+    <h3>Things cats love:</h3>
+    <ul>
+      <li>Cat nip</li>
+      <li>Laser pointers</li>
+      <li>Lasagna</li>
+    </ul>
+    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate">
+    <p>Cats love lasagna.</p>
+
+    <h3>Top 3 things cats hate:</h3>
+    <ul>
+      <li>Flea treatment</li>
+      <li>Thunder</li>
+      <li>Other cats</li>
+    </ul>
+    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field">
+    <p>Cats hate other cats.</p>
+  </section>
+
+  <section>
+    <h2>Cat Form</h2>
+    <form>
+      <label for="indoor-outdoor">Is your cat an indoor or outdoor cat?</label><br>
+      <input type="radio" id="indoor" name="cat-type" value="indoor">
+      <label for="indoor">Indoor</label><br>
+      <input type="radio" id="outdoor" name="cat-type" value="outdoor">
+      <label for="outdoor">Outdoor</label><br>
+
+      <label for="personality">What's your cat's personality?</label><br>
+      <input type="checkbox" id="loving" name="personality" value="loving">
+      <label for="loving">Loving</label><br>
+      <input type="checkbox" id="lazy" name="personality" value="lazy">
+      <label for="lazy">Lazy</label><br>
+      <input type="checkbox" id="energetic" name="personality" value="energetic">
+      <label for="energetic">Energetic</label><br>
+
+      <label for="cat-photo">Cat photo URL</label><br>
+      <input type="url" id="cat-photo" name="cat-photo" required><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <footer>
+    <p>No Copyright - freeCodeCamp.org</p>
+  </footer>
+</body>
+</html>
